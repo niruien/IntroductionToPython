@@ -31,14 +31,21 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 import rosegraphics as rg
 window = rg.TurtleWindow()
 mike = rg.SimpleTurtle('turtle')
-mike.pen = rg.Pen('green', 50)
+mike.pen = rg.Pen('green', 10)
 mike.speed = 10
-size =100
+size =200
 for k in range(20):
-    mike.draw_circle(20)
+    mike.draw_circle(size)
     mike.pen_up()
     mike.right(45)
+    mike.right(30)
+    mike.pen_down()
+    size = size-10
     
+
+
+
+
 
 
 
