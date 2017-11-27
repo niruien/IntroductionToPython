@@ -54,7 +54,7 @@ for j in range (5):
     rebecca.left(36)
     rebecca.pen_down()
 
-
+window.close_on_mouse_click()
 
 
 
