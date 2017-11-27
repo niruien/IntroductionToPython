@@ -112,6 +112,7 @@ matt.forward(50)
 ########################################################################
 mike = rg.SimpleTurtle('turtle')
 mike.pen = rg.Pen('green',50)
+mike.speed = 15
 mike.forward(100)
 mike.left(90)
 mike.forward(150)
