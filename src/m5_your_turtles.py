@@ -32,16 +32,30 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 mike = rg.SimpleTurtle('turtle')
 mike.pen = rg.Pen('green', 10)
-mike.speed = 10
-size =200
-for k in range(20):
+mike.speed = 5
+size = 150
+for k in range(10):
     mike.draw_circle(size)
     mike.pen_up()
     mike.right(45)
     mike.right(30)
     mike.pen_down()
     size = size-10
-    
+
+rebecca = rg.SimpleTurtle('turtle')
+rebecca.pen = rg.Pen('pink',10)
+rebecca.speed = 5
+length = 200
+for j in range (15):
+    rebecca.draw_square(length)
+    rebecca.pen_up()
+    rebecca.left(45)
+    rebecca.forward(10)
+    rebecca.left(45)
+    rebecca.pen_down()
+    length = length-10
+
+
 
 
 
